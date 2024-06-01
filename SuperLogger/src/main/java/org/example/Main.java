@@ -7,7 +7,7 @@ import org.example.services.async.AsyncSuperLogger;
 import org.example.services.sync.SyncSuperLogger;
 import org.example.sniks.Sink;
 import org.example.sniks.StdoutSink;
-import org.example.strategy.LoggingPatternFactory;
+import org.example.factory.LoggingPatternFactory;
 import org.example.strategy.LoggingPatternStrategy;
 
 import java.util.concurrent.Executors;

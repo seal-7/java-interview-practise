@@ -1,6 +1,9 @@
-package org.example.strategy;
+package org.example.factory;
 
 import org.example.enums.LoggingPattern;
+import org.example.strategy.DefaultLoggingPattern;
+import org.example.strategy.LoggingPatternStrategy;
+import org.example.strategy.ThreadNameLoggingPattern;
 
 import java.util.HashMap;
 import java.util.Map;
